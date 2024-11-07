@@ -1,0 +1,21 @@
+{
+	"name": "ytdl-proxy",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.5.2",
+		"vitest": "2.0.5",
+		"wrangler": "^3.83.0"
+	},
+	"dependencies": {
+		"@ybd-project/ytdl-core": "^6.0.5",
+		"fluent-ffmpeg": "^2.1.3"
+	}
+}
